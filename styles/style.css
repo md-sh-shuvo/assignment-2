@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body ,html{
    width: 100vw;
@@ -122,12 +123,12 @@ body ,html{
 
 /* banner styles */
 .banner{
+    width: calc(((1060/1440)*100%));
     gap: 25%;
-    margin: 130px calc(((500/1440)*100%)) calc(((76/1440)*100%)) calc(((190/1440)*100%));
+    margin: 130px calc(((214/1440)*100%)) calc(((76/1440)*100%)) calc(((190/1440)*100%));
 }
 .banner-content{
-    width: 520px;
-    
+    width: 100%;
     flex-direction: column;
     align-items: start;
     justify-content: flex-start;
@@ -158,7 +159,12 @@ body ,html{
 }
 .banner-img{
     width: 100%;
+    /* width: 353px;
+    height: 588px; */
     margin-top: -80px;
+}
+.imgs-2{
+    /* width: 100%; */
 }
 /* under banner image */
 .workout-videos{
