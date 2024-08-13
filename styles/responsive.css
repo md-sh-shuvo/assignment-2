@@ -1,0 +1,39 @@
+/* media query for medium devices or tablet */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    /* navbar */
+    .navbar{
+        width: 95%;
+        margin-top: 52px;
+    }
+    .nav-title{
+        font-size: 2rem;
+    }
+    .nav-links{
+        font-size: 1rem;
+    }
+    .nav-links-container{
+        gap: 5px;
+    }
+
+
+
+}
+
+
+
+/* media query for small devices or mobile */
+@media screen and (max-width: 576px) {
+    .hamburger{
+        display: block;
+    }
+    .nav-links-container{
+        display: none;
+    }
+    .navbar{
+        width: 90%;
+        margin-top: 52px;
+    }
+    .nav-title{
+        font-size: 1.8rem;
+    }
+}
