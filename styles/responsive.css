@@ -14,8 +14,15 @@
     .nav-links-container{
         gap: 5px;
     }
-
-
+    .banner{
+        margin-right: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img{
+        margin-top: 48px;
+        margin-left: 50%;
+    }
 
 }
 
@@ -36,4 +43,84 @@
     .nav-title{
         font-size: 1.8rem;
     }
+    .banner{
+        /* margin-right: 5%; */
+        /* margin-left: 50%;
+        margin-right: 50%; */
+        flex-direction: column;
+        align-items: start;
+    }
+    .banner-content{
+        align-items: start;
+    }
+    .banner-title{
+        font-weight: 800;
+        font-size: 2.25rem;
+        color: white;
+        line-height: 120%;
+    }
+    .banner-word-shape{
+        font-weight: normal;
+        font-size: 5rem;
+    
+    }
+    .banner-description{
+        width: 274px;
+        font-weight: normal;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .banner-btn{
+        width: 352px;
+        height: 54px;
+        justify-content: space-between;
+    
+    }
+    .banner-img{
+        width: 100%;
+        margin: 48px 20px;
+    }
+    .btn-primary, .btn-secondary{
+        width: 169px;
+    }
+    .workout-videos{
+        width: 145px;
+        height: 74px;
+        margin-left: 200px;
+        margin-top: -565px;
+
+    }
+    .video-tutorial{
+        width: 155px;
+        height: 72px;
+        margin-left: -73px;
+        margin-top: 138px;
+        padding-left: 17px;
+    }
+    .five-hundred-plus{
+        font-weight: 800;
+        font-size: 1.89rem;
+        color: white;
+    }
+    .free-workout-videos{
+        font-weight: normal;
+        font-size: 0.6125rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .three-fifty-plus{
+        font-weight: 800;
+        font-size: 1.125rem;
+        color: white;
+    }
+    .video-turial{
+        font-weight: normal;
+        font-size: 0.75rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .banner-play-btn{
+        margin-left: -124px;
+    }
+    
 }
+
+

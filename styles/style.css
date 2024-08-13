@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-   
+body ,html{
+   width: 100vw;
 }
 
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 .inter-normal {
     font-family: "Inter", sans-serif;
@@ -34,8 +34,26 @@ body{
 .display-flex{
     display: flex;
 }
-
- 
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    background-color: rgba(230, 83, 60, 1);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.btn-secondary{
+    width: 224px;
+    height: 54px;
+    border: 1px solid white;
+    border-radius: 42px;
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
 /* HEADER BEGINS HERE */
 .header{
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.904),black);
@@ -104,16 +122,100 @@ body{
 
 /* banner styles */
 .banner{
-
+    gap: 25%;
+    margin: 130px calc(((500/1440)*100%)) calc(((76/1440)*100%)) calc(((190/1440)*100%));
+}
+.banner-content{
+    width: 520px;
+    
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 28px;
 }
 .banner-title{
-    width: 599px;
     font-weight: 800;
     font-size: 4.875rem;
     color: white;
-    margin: calc(((199/1440)*100%)) calc(((600/1440)*100%)) calc(((76/1440)*100%)) calc(((190/1440)*100%));
+    line-height: 120%;
 }
 .banner-word-shape{
     font-weight: normal;
+    font-size: 9.7rem;
 
+}
+.banner-description{
+    width: 520px;
+    font-weight: normal;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn{
+    width: 462px;
+    height: 54px;
+    justify-content: space-between;
+
+}
+.banner-img{
+    width: 100%;
+    margin-top: -80px;
+}
+/* under banner image */
+.workout-videos{
+    width: 173px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 230px;
+    margin-top: -455px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+}
+.video-tutorial{
+    width: 186px;
+    height: 96px;
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: -113px;
+    margin-top: 198px;
+    padding-left: 24px;
+    align-items: center;
+    gap: 12px;
+}
+
+.orange-circle{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+}
+.banner-play-btn{
+    margin-top: 2px;
+    margin-left: -148px;
+}
+.five-hundred-plus{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+}
+.free-workout-videos{
+    font-weight: normal;
+    font-size: 0.8125rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.three-fifty-plus{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+}
+.video-turial{
+    font-weight: normal;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
 }
