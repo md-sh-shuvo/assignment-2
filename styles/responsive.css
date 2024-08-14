@@ -33,6 +33,15 @@
         margin-top: 238px;
         padding-left: 17px;
     }
+
+    /* section-1 */
+    .banner-content{
+        max-width: 476px;
+    }
+    .habbits{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
 }
 
 
@@ -139,6 +148,26 @@
         width: 100vh;
         overflow-x: hidden;
     } */
+
+    /* section-1 */
+    .section-1{
+        padding-top: 200px;
+    }
+    .banner-content{
+        max-width: 318px;
+    }
+    .habbit-title{
+        font-size: 2rem;
+    }
+    .habbit-description{
+        min-width: 300px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+    .habbits{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
 }
 
 
