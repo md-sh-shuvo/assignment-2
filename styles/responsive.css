@@ -125,6 +125,27 @@
         margin-top: 0;
         margin-left: 0;
     }
+
+    /* section-6 */
+    .section-6{
+        margin: 0 50px;
+
+    }
+    .section-6-imgs{
+        width: 199px;
+    }
+    .section-6-container{
+        /* align-items: center; */
+    }
+    .section-6-content{
+        width: 671px;
+        text-align: center;
+    }
+    .section-6-img-container{
+        width: 677px;
+        padding: 20px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -326,6 +347,35 @@
     .bmi-chart{
         height: 320px;
     }
+
+    /* section-6 */
+    .section-6-container{
+        gap: 27px;
+    }
+    .section-6-img-container{
+        width: auto;
+        padding: 20px;
+    }
+    .section-6-imgs{
+        width: 313px;
+    }
+    .section-6-content{
+        width: 309px;
+        height: 124px;
+        text-align: center;
+    }
+    .section-6-description{
+        width: 671px;
+    }
+    .section-6-title{
+        font-size: 2rem;
+    }
+    .section-6-description{
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 78px;
+    }
+
 }
 
 

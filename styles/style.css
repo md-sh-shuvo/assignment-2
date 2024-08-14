@@ -303,12 +303,12 @@ main{
     width: 35%;
     margin-left: 54px;
 }
-.run-title, .section-3-title, .section-4-title{
+.run-title, .section-3-title, .section-4-title, .section-6-title{
     font-weight: 800;
     font-size: 3rem;
     margin-bottom: 14px;
 }
-.run-description, .section-3-description, .section-4-description, .bmi-calculator-p, .bmi-chart-table td{
+.run-description, .section-3-description, .section-4-description, .bmi-calculator-p, .bmi-chart-table td, .section-6-description{
     
     font-weight: normal;
     font-size: 0.875rem;
@@ -521,4 +521,76 @@ select option {
 }
 .calculator-btn{
     margin-top: 22px;
+}
+
+/* section-6 */
+.section-6{
+    width: calc(((1060/1440)*100%));
+    margin: 0 auto;
+}
+.section-6-container{
+    flex-direction: column;
+}
+.section-6-content{
+    text-align: center;
+}
+.section-6-description{
+    width: 671px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+.section-6-img-container{
+    width: 1060px;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: repeat(3, 1fr); */
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    border-radius: 18px;
+}
+
+.section-6-imgs{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+#section-6-img-1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+}
+#section-6-img-2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+}
+#section-6-img-3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+}
+#section-6-img-4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+}
+#section-6-img-5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+}
+#section-6-img-6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+}
+.trainer-name{
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+.trainer{
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.team-container{
+    position: relative;
+    top: 220px;
+    left: 10px;
 }
