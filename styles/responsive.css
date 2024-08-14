@@ -104,6 +104,11 @@
         display: none;
     }
     
+    /* section-4 */
+    .bmi-calculator{
+        width: 595px;
+        margin: 72px 90px 46px 29px;
+    }
 }
 
 
@@ -288,6 +293,11 @@
     .img-5{
         width: 210px;
         height: 127px;
+    }
+    /* section-4 */
+    .bmi-calculator{
+        width: 353px;
+        margin: 30px 20px;
     }
 }
 
