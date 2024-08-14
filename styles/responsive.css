@@ -42,6 +42,36 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
+
+    /* section-2 */
+    .section-2{
+        height: 400px;
+        width: 686px;
+    }
+    .run-content{
+        width: 35%;
+        height: 306px;
+    }
+    .run-title{
+        font-size: 2.25rem;
+        margin-bottom: 14px;
+    }
+    .run-img{
+        width: 256px;
+        height: 319px;
+        border-radius: 18px;
+        /* overflow: hidden;
+        border: 1px solid black;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ; */
+    }
+    .run-img img{
+        width: 100%;
+        background-size: cover;
+        scale: 4;
+        position: relative;
+        left: -135px;
+        top: 140px;
+    }
 }
 
 
@@ -167,6 +197,41 @@
     .habbits{
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
+    }
+
+    /* section-2 */
+    .section-2{
+        flex-direction: column;
+        align-items: center;
+        height: 531px;
+    }
+    .run-content{
+        width: 287px;
+        height: 264px;
+        margin-left: 10px;
+    }
+    .run-title{
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+    .section-2-btn{
+        width: 100%;
+    }
+    .run-img{
+        width: 287px;
+        height: 170px;
+        border-radius: 18px;
+        /* overflow: hidden;
+        border: 1px solid black;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ; */
+    }
+    .run-img img{
+        width: 100%;
+        background-size: cover;
+        scale: 1;
+        position: relative;
+        left: 0px;
+        top: 0px;
     }
 }
 

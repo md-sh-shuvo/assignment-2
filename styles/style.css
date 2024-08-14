@@ -287,3 +287,50 @@ main{
     color: rgba(255, 255, 255, 0.5);
     line-height: 18px;
 }
+
+/* section-2 */
+.section-2{
+    width: calc(((1060/1440)*100%));
+    background-color: rgba(34, 34, 34, 1);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-content{
+    width: 35%;
+    margin-left: 54px;
+}
+.run-title{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.run-description{
+    
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.run-img img{
+    width: 100%;
+    background-size: cover;
+    scale: 3;
+    position: relative;
+    left: -150px;
+    top: 125px;
+}
