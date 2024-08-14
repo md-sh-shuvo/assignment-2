@@ -252,7 +252,7 @@ main{
     margin: 0 auto;
     margin-bottom: 58px;
 }
-.habbit-title{
+.habbit-title {
     font-weight: 800;
     font-size: 3rem;
     margin-bottom: 14px;
@@ -303,12 +303,12 @@ main{
     width: 35%;
     margin-left: 54px;
 }
-.run-title{
+.run-title, .section-3-title{
     font-weight: 800;
     font-size: 3rem;
     margin-bottom: 14px;
 }
-.run-description{
+.run-description, .section-3-description{
     
     font-weight: normal;
     font-size: 0.875rem;
@@ -333,4 +333,109 @@ main{
     position: relative;
     left: -150px;
     top: 125px;
+}
+
+/* section-3 */
+.section-3{
+    width: calc(((1060/1440)*100%));
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.section-3-content{
+    width: 60%;
+    margin-bottom: 58px;
+}
+
+.img-1{
+    width: 323px;
+    height: 201.5px;
+    background-image: url(../images/exercise1.jpg) ;
+    background-size: cover;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+}
+#img-1{
+    margin: 157px 50px 27.5px 24px ;
+    color: black;
+}
+#img-2{
+    margin: 15px 213px 153px 31px;
+    color: black;
+    
+}
+#img-3{
+    margin: 146px 87px 21.5px 27px;
+    color: rgb(255, 255, 255);
+}
+#img-4{
+    margin: 25px 0 142px 249px ;
+    color: rgb(255, 255, 255);
+}
+#img-5{
+    margin: 154px 78px 13px 34px;
+    color: rgb(255, 255, 255);
+}
+#img-6{
+    margin: 149px 142px 0px 25px ;
+    color: black;
+}
+.img-2{
+    width: 520px;
+    height: 201.5px;
+    background-image: url(../images/exercise2.png);
+    background-size: cover;
+    background-position-y: -20px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-3{
+    width: 388px;
+    height: 201.5px;
+    background-image: url(../images/exercise3.png);
+    background-size: cover;
+    font-weight: 300;
+    font-size: 0.875rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.img-4{
+    width: 425px;
+    height: 201.5px;
+    background-image: url(../images/exercise4.png);
+    background-size: cover;
+    font-weight: 300;
+    font-size: 0.875rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.img-5{
+    width: 408px;
+    height: 201.5px;
+    background-image: url(../images/exercise5.jpg);
+    background-size: cover;
+    font-weight: 300;
+    font-size: 0.875rem;
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-6{
+    width: 376px;
+    height: 201.5px;
+    background-image: url(../images/exercise6.jpg);
+    background-size: cover;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background-color: rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+}
+.run-description{
+    
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 14px;
+    margin-bottom: 34px;
 }
