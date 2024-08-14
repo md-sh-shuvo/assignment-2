@@ -109,6 +109,22 @@
         width: 595px;
         margin: 72px 90px 46px 29px;
     }
+
+    /* section-5 */
+    .bmi-container{
+        flex-direction: column;
+        align-items: start;
+        gap: 62px;
+        margin: 52px auto;
+    }
+    .bmi-chart{
+        height: 350px;
+        margin-left: 0;
+    }
+    .bmi-calculator{
+        margin-top: 0;
+        margin-left: 0;
+    }
 }
 
 
@@ -295,9 +311,20 @@
         height: 127px;
     }
     /* section-4 */
-    .bmi-calculator{
+    .bmi-calculator-title{
         width: 353px;
         margin: 30px 20px;
+    }
+
+    /* section-5 */
+    .bmi-container{
+        flex-direction: column;
+        align-items: start;
+        gap: 42px;
+        margin: 52px auto;
+    }
+    .bmi-chart{
+        height: 320px;
     }
 }
 
