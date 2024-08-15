@@ -356,6 +356,9 @@
     .bmi-chart{
         height: 320px;
     }
+    .bmi-chart-table{
+        margin-top: 20px;
+    }
 
     /* section-6 */
     .section-6-container{
