@@ -146,6 +146,15 @@
         padding: 20px;
         margin: 0 auto;
     }
+
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .footer-right{
+        width: 80%;
+    }
 }
 
 
@@ -376,6 +385,20 @@
         margin-bottom: 78px;
     }
 
-}
 
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+        margin: 0;
+        margin-left: 5%;
+    }
+    .footer-right{
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-left {
+        max-width: 80%;
+    }
+}
 
