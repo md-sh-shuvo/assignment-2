@@ -160,7 +160,9 @@
 
 /* media query for small devices or mobile */
 @media screen and (max-width: 576px) {
-
+    main{
+        padding-bottom: 1px;
+    }
 
     .hamburger{
         display: block;
@@ -388,6 +390,22 @@
     }
 
 
+    /* section-7 */
+    .section-7-clients{
+        flex-direction: column;
+    }
+    .review-container{
+        flex-direction: column;
+    }
+    .section-7-reviews{
+        width: 100%;
+        gap: 80px;
+    }
+    .feedback{
+        margin-top: 100px;
+    }
+
+
     /* footer */
     .footer-content{
         flex-direction: column;
@@ -402,5 +420,10 @@
     .footer-left {
         max-width: 80%;
     }
+    .section-7-title, .section-7-fitness{
+        font-size: 1.5rem;
+    }
+   
+    
 }
 
